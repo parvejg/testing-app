@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <h1>Hello</h1>
-      <Link href="/users">Users</Link>
+      <Link href="/users" className="btn btn-accent">click me</Link>
       <ProductCard/>
       </main>
   );
